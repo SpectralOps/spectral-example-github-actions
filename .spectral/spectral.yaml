@@ -1,0 +1,11 @@
+reporter:
+    outputs:
+        stylish: {}
+
+projects:
+    default:
+        project:
+            name: default
+        input:
+            - local: ../src
+              name: sources
