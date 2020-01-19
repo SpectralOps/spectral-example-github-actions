@@ -6,6 +6,7 @@ jobs:
     name: Spectral
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: Install
         run: curl -L spectralops.io/get | sudo sh
       - name: Files
