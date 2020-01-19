@@ -1,4 +1,4 @@
-name: Greet Everyone
+name: Main
 on: [push]
 
 jobs:
@@ -8,5 +8,7 @@ jobs:
     steps:
       - name: Install
         run: curl -L spectralops.io/get | sudo sh
+      - name: Files
+        run: ls -ltr
       - name: Scan
         run: spectral --version && spectral run
