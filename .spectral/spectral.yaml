@@ -7,5 +7,5 @@ projects:
         project:
             name: default
         input:
-            - local: ../src
+            - local: .
               name: sources
